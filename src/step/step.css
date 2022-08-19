@@ -1,0 +1,14 @@
+.left{
+    margin-left:1.5rem;
+    cursor:pointer;
+    overflow-x:scroll;
+    display:flex;
+
+}
+.step-color{
+   fill:  rgb(188 191 238);
+
+}
+
+ 
+    

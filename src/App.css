@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.select{
+    margin-top: 5px;
+    margin-left: 1.8rem;
+    width: 300px;
+    /* border: 6px solid transparent; */
+    font-family:Lucida ; 
+    /* background-color: DodgerBlue; */
+    /* border-color: #fff transparent transparent transparent;
+     background-color: rgba(0, 0, 0, 0.1); */
+  } 
+  .navbar-brand{
+    font-weight: bold;
+    margin-left: 1.8rem;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .legends{
+    background-color: rgba(166, 219, 166, 0.78);
+    /* border-radius: 3px; */
+    display: inline-flex;
+    /* align-items: center; */
+    padding: 0 5px;
+    margin: 0 5px;
+    box-sizing: border-box;
+    cursor: pointer ;
+    /* position: relative; */
+      /* float: right; */
+      
+      /* padding: 5px; */
   }
-  to {
-    transform: rotate(360deg);
+  .item{
+    display: inline-flex;
+    /* align-items: center; */
+    /* margin: 0 5px;
+    padding: 0 5px; */
+    /* border-radius: 3px; */
+    /* box-sizing: border-box */
   }
-}
+  .color{
+    height: 15px;
+      width: 15px;
+      margin-right: 5px;
+  
+  }
+  .label
+  {
+    font-size: 90%
+  }
+  
+  .legend{
+    width: 20px;
+    height: 20px;
+    margin: 3px 5px;
+    cursor: pointer ;
+  }
+  .recipe-color {
+    background-color: #f298a1;
+  }
+  .step-color {
+    background-color: rgb(188 191 238);
+  }
+  .activity-color {
+    background-color: rgb(148 233 170);
+  }
+  .parameter-color {
+    background-color: #ffdb6f;
+  }
