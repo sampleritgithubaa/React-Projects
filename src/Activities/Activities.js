@@ -18,7 +18,7 @@ export default function Activities(step) {
               <>
                 <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&darr;</h1>
                 <>
-                  <svg
+                  <svg  
                     height="80"
                     onClick={(e) => onActivityClick(processIndex)}
                   >
